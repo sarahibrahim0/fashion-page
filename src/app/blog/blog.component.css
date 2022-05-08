@@ -1,0 +1,33 @@
+
+
+.animated{
+animation-duration: 3s;
+animation-name: slidein;
+animation-direction: normal;
+margin:0
+}
+
+@keyframes slidein {
+from {
+  margin-right: -200%;
+  width: 200%;
+
+}
+
+to {
+  margin-right: 0%;
+  width: 50%;
+
+}
+}
+
+
+
+.carousel-control-prev{
+  width:.1%
+}
+
+.carousel-control-next{
+  width:.1%
+}
+

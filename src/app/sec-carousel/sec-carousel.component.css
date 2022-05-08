@@ -1,0 +1,58 @@
+
+
+.animationn{
+animation-duration: 3s;
+animation-name: slideinanimation;
+animation-direction: normal;
+margin:0
+}
+
+@keyframes slideinanimation {
+from {
+  margin-left: -200%;
+  width: 200%;
+
+}
+
+to {
+  margin-left: 0%;
+  width: 50%;
+
+}
+}
+
+.carousel-control-prev{
+  width:.1%
+}
+
+.carousel-control-next{
+  width:.1%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control-prev{
+  width:.1%
+}
+
+.carousel-control-next{
+  width:.1%
+}
+

@@ -1,0 +1,105 @@
+
+.buttonindicator{
+    width:60px;
+    color:black;
+    background-color: rgb(207 216 220);
+    opacity: 1;
+    height: 400px
+    }
+
+    .buttonindicatorleft{
+    width:60px;
+    color:black;
+    background-color: #D7CCC8;
+    opacity: 1;
+    height: 400px
+    }
+
+
+    .buttondiv{
+    width:100px;
+    color: white;
+    background-color: #3E2723;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    animation-duration: 2s;
+    animation-name: slideoutbtn;
+    animation-direction: normal;
+    }
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color:#3E2723;
+    }
+
+.h2{
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: normal;
+    }
+
+.h4{
+    animation-duration: 2s;
+    animation-name: slideinh4;
+    animation-direction: normal;
+  }
+
+article{
+    width: 300px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slideout;
+    animation-direction: normal;
+  }
+
+@keyframes slideinh4 {
+    from {
+      margin-right: 100%;
+      width: 100px;
+    }
+
+    to {
+      margin-left: 5%;
+      width: 100px;
+    }
+  }
+
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 150px;
+    }
+
+    to {
+      margin-left: 13%;
+      width: 150px;
+    }
+  }
+@keyframes slideout {
+    from {
+      margin-left: 100%;
+      width: 300px;
+    }
+
+    to {
+      margin-left: 5%;
+      width: 300px;
+    }
+
+  }
+@keyframes slideoutbtn {
+    from {
+      margin-left: 70%;
+      width: 100px;
+    }
+
+    to {
+      margin-left: 5%;
+      width: 100px
+    }
+
+  }

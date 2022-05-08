@@ -1,0 +1,68 @@
+
+.buttonindicator{
+
+    background-color: rgb(207 216 220);
+    opacity: 1;
+
+    }
+
+    .buttonindicatorleft{
+
+    background-color: #D7CCC8;
+    opacity: 1;
+
+    }
+
+
+    .buttondiv{
+    width:100px;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    animation-duration: 2s;
+    animation-name: slideoutbtn;
+    animation-direction: normal;
+    }
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color:#3E2723;
+    }
+
+article{
+    width: 300px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slideout;
+    animation-direction: normal;
+  }
+
+
+@keyframes slideout {
+    from {
+      margin-left: 100%;
+      width: 300px;
+    }
+
+    to {
+      margin-right: 1.2%;
+      width: 300px;
+    }
+
+  }
+@keyframes slideoutbtn {
+    from {
+      margin-left: 70%;
+      width: 100px;
+    }
+
+    to {
+      margin-left: 1%;
+      width: 100px
+    }
+
+  }

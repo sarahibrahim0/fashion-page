@@ -1,0 +1,8 @@
+
+.hr{
+border-top : .3rem solid #D1D1D1;
+}
+
+hr.active{
+  width: 5rem
+}
