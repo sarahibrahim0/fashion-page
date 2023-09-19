@@ -1,6 +1,24 @@
+
+
 module.exports = {
-  content: ["./src/**/*.{html,ts}","./node_modules/tw-elements/dist/js/**/*.js"],
+  content: [  "./src/**/*.{html,ts}"],
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
   colors:{
     'greyhr': '#CFD8DC',
     'footerhr':'#8D8D8D',
@@ -19,14 +37,18 @@ module.exports = {
     'hr5':'5px'
   },
   spacing:{
-    '111':'calc(100% + 64px)'
+    '111':'calc(100% + 64px)',
+    '1': '8px',
+    '2': '12px',
+    '3': '16px',
+    '4': '24px',
+    '5': '32px',
+    '6': '48px',
 
   }
 
   },
   plugins: [
-    require('tw-elements/dist/plugin')
   ],
 }
-
 
