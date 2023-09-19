@@ -1,8 +1,7 @@
 
 
 module.exports = {
-  content: [  "../src/**/*.{html,ts}",
-  "./node_modules/tw-elements/dist/js/**/*.js"],
+  content: ["./src/**/*.{html,ts}"],
   theme: {
     screens: {
       'sm': '640px',
@@ -49,6 +48,6 @@ module.exports = {
   }
 
   },
-  plugins: [require("tw-elements/dist/plugin.cjs")]
+  plugins: []
 }
 
