@@ -25,7 +25,7 @@
     "ngx-bootstrap-icons": "^1.8.2",
     "popper.js": "^1.16.1",
     "rxjs": "~7.5.0",
-    "tw-elements": "^1.0.0-alpha12",
+    "tw-elements": "^1.0.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
