@@ -26,12 +26,13 @@ export class NavbarComponent implements OnInit {
 
 
   toggleIcon(){
+    console.log('hh')
     if(!this.play)
     {
       this.play = true;
       this.pause = false;
       this.bgVideo.nativeElement.play()
-      // console.log(this.bgVideo.nativeElement + 'play' )
+      console.log(this.bgVideo.nativeElement + 'play' )
 
 
     }
@@ -41,7 +42,7 @@ export class NavbarComponent implements OnInit {
       this.pause = true;
       this.bgVideo.nativeElement.pause()
 
-      // console.log(this.bgVideo.nativeElement + 'pause' )
+      console.log(this.bgVideo.nativeElement + 'pause' )
 
 
     }

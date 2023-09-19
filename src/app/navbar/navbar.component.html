@@ -7,10 +7,11 @@
 
   <div class="opacity-[.001] hover:opacity-70 self-center">
   <div class="  flex items-center justify-center outline-dashed  outline-1 rounded-full	w-20 h-20 text-center  mb-5  ">
-    <button class="  no-underline	hover:text-white " (click)="toggleIcon()" >
+    <!-- <button class="  no-underline	hover:text-white " (click)="toggleIcon()" >
       <i [class.hide]="play" class="bi bi-play text-4xl"></i>
       <i [class.hide]="pause" class="bi bi-pause text-4xl"></i>
-    </button>
+      jkk
+    </button> -->
     <!-- [class.hide]="play" -->
 
   </div>
@@ -23,7 +24,11 @@
 
   <div class=" opacity-70 flex items-center justify-center outline-dashed outline-1 rounded-full	w-12 h-12 text-center self-center ">
     <a class="no-underline	hover:text-white" href="#">
-      <i class="bi bi-arrow-down-short text-4xl"></i>
+      <!-- <i class="bi bi-arrow-down-short text-4xl"></i> -->
+      <button class="  no-underline	hover:text-white " (click)="toggleIcon()" >
+        <i [class.hide]="play" class="bi bi-play text-4xl"></i>
+        <i [class.hide]="pause" class="bi bi-pause text-4xl"></i>
+      </button>
     </a>
   </div>
 
@@ -58,7 +63,7 @@
       </nav>
     </div>
 
-      <div class="w-[85%]	 relative flex  items-start justify-center h-screen mb-12 overflow-hidden">
+      <div class="w-[85%]	 relative flex flex-row items-start justify-between h-screen mb-12 overflow-hidden">
       <video  autoplay loop muted #bgVideo class="absolute w-full saturate-50 backdrop-sepia	brightness-50
 
       min-w-full min-h-full max-w-none" >
