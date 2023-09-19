@@ -1,6 +1,8 @@
 import { DOCUMENT } from '@angular/common';
 import { Component,  OnInit , Inject ,ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { fromEvent } from 'rxjs';
+import { Carousel, initTE } from 'tw-elements';
+
 
 
 
@@ -56,6 +58,10 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+
+    initTE({ Carousel });
+
     fromEvent(window, 'scroll').subscribe((event)=>
     {
     if (this.document.defaultView){
