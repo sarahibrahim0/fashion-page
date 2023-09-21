@@ -28,7 +28,6 @@ export class NavbarComponent implements OnInit {
 
 
   toggleIcon(){
-    console.log('hh')
     if(!this.play)
     {
       this.play = true;
@@ -44,7 +43,6 @@ export class NavbarComponent implements OnInit {
       this.pause = true;
       this.bgVideo.nativeElement.pause()
 
-      console.log(this.bgVideo.nativeElement + 'pause' )
 
 
     }
