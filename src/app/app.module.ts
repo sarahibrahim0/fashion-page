@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -14,7 +13,6 @@ import { BlogComponent } from './blog/blog.component';
 import { SecCarouselComponent } from './sec-carousel/sec-carousel.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +24,8 @@ import { SecCarouselComponent } from './sec-carousel/sec-carousel.component';
     CategoriesComponent,
     FeaturedComponent,
     BlogComponent,
-    SecCarouselComponent
+    SecCarouselComponent,
+
   ],
   imports: [
     BrowserModule,
