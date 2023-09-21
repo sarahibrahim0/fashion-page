@@ -12,7 +12,7 @@
 
 @layer components {
 
-.navbar{ @apply h-[60px]   bg-navopacity bg-opacity-80 text-buttonbg }
+.navbar{ @apply h-[60px] bg-navopacity bg-opacity-80 text-buttonbg }
 
 .hide{ @apply hidden}
 
