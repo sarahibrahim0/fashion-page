@@ -113,5 +113,8 @@
       }
     }
   },
-  "defaultProject": "fashion-page"
+  "defaultProject": "fashion-page",
+  "cli": {
+    "analytics": false
+  }
 }

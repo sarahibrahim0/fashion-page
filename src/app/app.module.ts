@@ -29,8 +29,7 @@ import { SecCarouselComponent } from './sec-carousel/sec-carousel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-
+AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
