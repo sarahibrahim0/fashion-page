@@ -1,8 +1,11 @@
-/** @type {import('tailwindcss').Config} */
+const mode = process.env.TAILWIND_MODE ? 'jit' : 'aot';
 
 module.exports = {
-  content: ["./src/**/*.{html,ts}",
-  "./node_modules/tw-elements/dist/js/**/*.js"
+  mode: mode,
+  content: ["./src/**/*.{html,ts, js}",
+  "./node_modules/tw-elements/dist/js/**/*.js",
+  "./dist/**/*.{html,ts, js, css}"
+
 ],
   theme: {
   colors:{
