@@ -2,7 +2,7 @@ const mode = process.env.TAILWIND_MODE ? 'jit' : 'aot';
 
 module.exports = {
   mode: mode,
-  content: ["./src/**/*.{html,ts,js,cjs}",
+  content: ["./src/**/*.{html,ts,js}",
   "./node_modules/tw-elements/dist/js/**/*.js"
 
 
