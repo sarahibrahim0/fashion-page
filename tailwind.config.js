@@ -51,7 +51,7 @@ module.exports = {
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],
 
-  safelist: ['animate-[slide-in-right]','animate-[slide-in-left]', 'animate-[fade-in]']
+  safelist: ['animate-\[slide-in-right\]','animate-\[slide-in-left\]', 'animate-\[fade-in\]']
 
 }
 
