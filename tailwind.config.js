@@ -4,7 +4,9 @@ module.exports = {
   mode: mode,
   content: ["./src/**/*.{html,ts, js}",
   "./node_modules/tw-elements/dist/js/**/*.js",
-  "./dist/**/*.{html,ts, js, css}"
+  "./dist/**/*.{html,ts, js, css}",
+  "./dist/output.css"
+
 
 ],
   theme: {
