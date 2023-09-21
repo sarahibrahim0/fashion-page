@@ -4,6 +4,7 @@ module.exports = {
   mode: mode,
   content: ["./src/**/*.{html,ts,js,cjs}",
   "./node_modules/tw-elements/dist/js/**/*.js",
+  "./node_modules/tw-elements/dist/**/*.cjs",
   "./node_modules/tw-elements/dist/js/tw-elements.umd.min.js",
   "./dist/**/*.{html,ts, js, css}",
   "./dist/output.css"
